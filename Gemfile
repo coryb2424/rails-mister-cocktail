@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
+# http requests
+gem 'http', '~> 2.0'
+
 # Front-End gems
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
